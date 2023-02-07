@@ -155,7 +155,6 @@ const ProfileScreen = ({route}) => {
 
   }
   
-
   useEffect(() => {
     const backAction = () => {
       Alert.alert('Hold on!', 'Are you sure you want to go back?', [
@@ -176,10 +175,6 @@ const ProfileScreen = ({route}) => {
 
     return () => backHandler.remove();
   }, []);
-
-
-
-
 
 
   return (
